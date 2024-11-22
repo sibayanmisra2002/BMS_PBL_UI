@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Customer Information</title>
+    <link rel="stylesheet" href="customer.css">
+    <script src="delete.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Delete Customer Information</h1>
+        <form id="deleteCustomerForm">
+            <label for="customerId">Customer ID:</label>
+            <input type="text" id="customerId" name="customerId" required>
+            <button type="submit">Delete Customer</button>
+        </form>
+        <div id="deleteSuccess" class="hidden">Customer successfully deleted!</div>
+        <div id="deleteError" class="hidden">An error occurred while deleting the customer.</div>
+    </div>
+</body>
+</html>

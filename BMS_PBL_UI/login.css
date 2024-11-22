@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7fafc; /* Equivalent to bg-gray-100 */
+}
+
+.container {
+    max-width: 640px; /* Equivalent to mx-auto with max-w-md */
+    margin: 0 auto; /* Center the container */
+    padding: 2rem; /* Equivalent to p-8 */
+}
+
+.bg-white {
+    background-color: #ffffff; /* White background */
+}
+
+.p-6 {
+    padding: 1.5rem; /* Padding of 6 */
+}
+
+.rounded-lg {
+    border-radius: 0.5rem; /* Rounded corners */
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Large shadow */
+}
+
+.text-2xl {
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+}
+
+.font-bold {
+    font-weight: 700; /* Bold font */
+}
+
+.mb-6 {
+    margin-bottom: 1.5rem; /* Margin bottom */
+}
+
+.text-center {
+    text-align: center; /* Center text */
+}
+
+.space-y-4 > * + * {
+    margin-top: 1rem; /* Space between elements */
+}
+
+.block {
+    display: block; /* Block display */
+}
+
+.text-sm {
+    font-size: 0.875rem; /* Small font size */
+}
+
+.font-medium {
+    font-weight: 500; /* Medium font weight */
+}
+
+.text-gray-700 {
+    color: #4a5568; /* Dark gray text */
+}
+
+.mt-1 {
+    margin-top: 0.25rem; /* Margin top */
+}
+
+.w-full {
+    width: 100%; /* Full width */
+}
+
+.border {
+    border-width: 1px; /* Border width */
+}
+
+.border-gray-300 {
+    border-color: #d2d6dc; /* Light gray border */
+}
+
+.rounded-md {
+    border-radius: 0.375rem; /* Medium rounded corners */
+}
+
+.shadow-sm {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* Small shadow */
+}
+
+.p-2 {
+    padding: 0.5rem; /* Padding of 2 */
+}
+
+.bg-blue-500 {
+    background-color: #3b82f6; /* Blue background */
+}
+
+.text-white {
+    color: #ffffff; /* White text */
+}
+
+.hover\:bg-blue-600:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+}
+
+.rounded-md {
+    border-radius: 0.375rem; /* Medium rounded corners */
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Medium shadow */
+}
